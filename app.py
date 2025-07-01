@@ -31,7 +31,7 @@ if analyze_button:
     prompt = f"""
 You are an expert tax advisor. Analyze the following financial data and suggest possible tax deductions
 and legal ways to reduce taxable income in India for FY 2025-26. Provide clear actionable steps.
-
+Keep the suggestions concise and relevant to US tax laws.
 Financial data:
 {input_text}
     """
